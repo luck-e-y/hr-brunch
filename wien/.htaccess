@@ -1,0 +1,4 @@
+# PROTECT FILES
+
+Order deny,allow
+Allow from all
