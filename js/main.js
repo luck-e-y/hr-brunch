@@ -59,6 +59,7 @@ jQuery(function($) {'use strict',
 		menuToggle();
 	});
 
+/*
 	$('.main-nav ul').onePageNav({
 		currentClass: 'active',
 	    changeHash: false,
@@ -67,7 +68,7 @@ jQuery(function($) {'use strict',
 	    scrollThreshold: 0.3,
 	    filter: ':not(.no-scroll)'
 	});
-
+*/	
 });
 
 
