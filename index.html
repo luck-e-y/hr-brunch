@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="de">
-
+ <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +8,40 @@
     <title>HR-Brunch | Wien</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-	  <link href="css/main.css" rel="stylesheet">
-	  <link href="css/animate.css" rel="stylesheet">	
-	  <link href="css/responsive.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">	
+	<link href="css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <!--link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"-->
+
+<link rel="shortcut icon" href="images/ico/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="images/ico/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="images/ico/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="images/ico/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="images/ico/android-chrome-192x192.png" sizes="192x192">
+	<meta name="msapplication-square70x70logo" content="/smalltile.png" />
+	<meta name="msapplication-square150x150logo" content="/mediumtile.png" />
+	<meta name="msapplication-wide310x150logo" content="/widetile.png" />
+	<meta name="msapplication-square310x310logo" content="/largetile.png" />
+
 
 </head><!--/head-->
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -34,140 +52,313 @@
   ga('send', 'pageview');
 
 </script>
-
 <body>
-	
+	<header id="header" role="banner">		
+		<div class="main-nav">
+			<div class="container">
+				<div class="header-top">
+					<div class="pull-right social-icons">
+						<a href="#"><!--<i class="fa fa-twitter"></i>-->&nbsp;</a>
+						<a href="#"><!--<i class="fa fa-facebook"></i>-->&nbsp;</a>
+						<a href="#"><!--<i class="fa fa-google-plus"></i>-->&nbsp;</a>
+						<a href="#"><!--<i class="fa fa-youtube"></i>-->&nbsp;</a>
+					</div>
+				</div>    
+		        <div class="row">	        		
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                    <span class="sr-only">Toggle navigation</span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                </button>
+		                <div class="navbar-brand" href="index.html" style="text-align: center;">
+		                	<img class="img-responsive" src="images/brunchlogo2.png" alt="logo"><br /><br/>
+		                	<a id="video" href="#" class="hidden-xs hidden-sm btn btn-default" data-backdrop="static" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/XN8pygAW0Ik" style="background-color: rgba(255,255,255, 0.78); border-radius: 50px; height:40px; width: 150px; padding: 5px; transition: opacity .15s linear; margin-top: 35px;">
+    
+                  <img src="images/playbutton.png" style="top: -2px; position: relative; margin-right: 8px; width: 25px;"><span style="color: #000; font-weight: bold; text-decoration: underline;">Video starten</span>
+                </a>
+		                </div>                    
+		            </div>
+		            <div class="collapse navbar-collapse">
+		                <ul class="nav navbar-nav navbar-right">                 
+		                    <li class="scroll active"><a href="#home">Start</a></li>
+		                    <li class="scroll"><a href="#explore">Wann</a></li>                         
+		                    <li class="scroll"><a href="#event">Themen</a></li>
+		                    <li class="scroll"><a href="#about">Programm & Ablauf</a></li>                     
+		                    <li class="scroll"><a href="#booking">Ticket buchen</a></li>
+		                    <li class="scroll"><a href="#contact">Kontakt</a></li>       
+		                </ul>
+		            </div>
+		        </div>
+	        </div>
+        </div>                    
+    </header>
     <!--/#header--> 
-    <section class="container-fluid" id="home">	
-
-      <div class="row">
-
-        <div class="col-md-6 col-md-offset-3">
-
-                <img src="/images/brunchlogo2.png" class="img-responsive" style="margin: 0 auto">
-
-        </div>
-
-
-      </div>
-
-    	<div class="row">
-
-    		<div class="col-md-6 col-md-offset-3">
-
-                <h2 style="margin-bottom: 12px; margin-top: 0; display: inline; vertical-align: sub;"><a style="color: #fff; text-decoration: none">HR-Brunch Wien</a></h2>&nbsp;&nbsp;<span class="label label-default"><s>16. Februar 2017</s></span>
-    			<p class="introtext" style="margin-top: 12px;">
-	    		     Kommenden Februar ist es wieder soweit: Information, Diskussion und Networking. Diese Elemente verbindet der HR-Brunch in einem entspannten Rahmen beim gemeinsamen Frühstück. Personaler aus unterschiedlichen Branchen bringen ihre Meinungen, Erfahrungen und Ideen mit ein. Das Ergebnis: angeregte Diskussionen über die Zukunft der HR-Welt - ganz im Sinne des Mottos „Disrupt HR!" 
-				</p>
-
-
-    		</div>
-
-
-    	</div>
-
-
-      <div class="row" style="margin-top: 30px">
-
-        
-
-        <div class="col-md-6 col-md-offset-3">
-
-          <!--<a id="video" href="#" class="btn btn-lg btn-default" data-backdrop="static" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/XN8pygAW0Ik" style="transition: opacity .15s linear; margin: 26px 0; padding: 10px 16px; border-radius: 6px; width: 200px; background-color: #f39c12; border-color: #f39c12; margin-right: 15px;">
-      
-            
-                    <img src="images/play.png" style="top: -2px; position: relative; margin-right: 8px; width: 25px;"><span style="color: #fff; font-weight: normal; text-decoration: none;">VIDEO STARTEN</span>
-                  
-          </a>-->
-
-          <!-- <a href="#" class="btn btn-lg btn-default" data-backdrop="static" data-toggle="modal" data-target="#subscriptionModal" data-toggle="modal" style="color: #555; transition: opacity .15s linear; margin: 26px 0; padding: 10px 16px; border-radius: 6px; width: 200px;">
-  
-              
-                    <span style="font-weight: normal; text-decoration: none;">GRATIS VORANMELDEN</span>
-              
-          </a> -->
-
-          
-          <!--a class="cta-button" href="wien/index.html#booking" style="color:#555; transition: opacity .15s linear; margin: 26px 0; padding: 10px 16px; border-radius: 6px; width: 200px;">
-            </a> -->
-
-		<a class="cta-button" style="color:#555; transition: opacity .15s linear; margin: 26px 0; padding: 10px 16px; border-radius: 6px; width: 200px;">
-
-          <span style="transition: opacity .15s linear; margin: 26px 0; padding: 15px 16px; border-radius: 6px; width: 200px; color: #fff; font-weight: normal; text-decoration: none; background-color: #f39c12; border-color: #f39c12"><img src="images/ticket.png" style="top: -2px; position: relative; margin-right: 8px; width: 25px;"> COMING SOON!</span>
-          </a>
-          <br /><br /><br />
-
-        </div>
-
-
-      </div>
-
-    	<div class="row" id="events">
-
-    		<a href="#">
-
-	    		<div class="col-md-6 left-event">
-
-	    			<h2>HR-Brunch Linz</h2>
-	    			<span class="label label-default">Abgelaufen</span><br /><br />
-                    HR-Brunch Linz war ein voller Erfolg. <br />
-                    Wir informieren Sie bald über den nächsten Veranstaltungstermin.
-
-	    		</div>
-	    	</a>	
-
-	    	<a href="#">
-	    		<div class="col-md-6 right-event">
-
-	    			<h2>HR-Brunch Salzburg</h2>
-	    			<span class="label label-default">Abgelaufen</span><br /><br />
-                    HR-Brunch Salzburg war ein voller Erfolg. <br />
-                    Wir informieren Sie bald über den nächsten Veranstaltungstermin.
-
-	    		</div>
-	    	</a>	
-
-    	</div>
-
+    <section id="home">	
+		<div id="main-slider" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="item active">
+					<img class="img-responsive" src="images/hr-brunch-background.jpg" alt="slider">						
+					<div class="carousel-caption">
+						<h2>3. Wiener HR-Brunch </h2>
+						<div class="visible-md visible-sm visible-xs" style="margin: 20px 0;">
+							<a id="landingMacLink" role="button" data-toggle="modal" href="#videoModal" data-remote="/video" style="background-color: rgba(255,255,255, 1); border-radius: 50px; height:40px; width: 150px; padding: 8px; transition: opacity .15s linear; margin-top: 20px; text-align: center;">
+    
+			                  <img src="images/playbutton.png" style="top: -2px; position: relative; margin-right: 5px; width: 25px;"><span style="color: #000; font-weight: bold; text-decoration: underline; font-size: 13px;">Video starten</span>
+			                </a>
+						</div>
+						<h4>Am 15.02.2018 um 8:30 Uhr</h4>
+						<a href="#booking">Hier Ticket buchen <i class="fa fa-angle-right"></i></a>
+					</div>
+				</div>
+				</div>				
+			</div>
+		</div>    	
     </section>
+	<!--/#home-->
+	<section id="explore">
+		<div class="container">
+			<div class="row">
+				<div class="watch">
+					<img class="img-responsive" src="images/watch.png" alt="">
+				</div>				
+				<div class="col-md-4 col-md-offset-2 col-sm-5">
+					<h2>Das warten hat ein Ende: Der 3. Wiener HR-Brunch findet am 15.2.18 statt!</h2>
+				</div>				
+				<div class="col-sm-7 col-md-6">					
+					<ul id="countdown">
+						<li>					
+							<span class="days time-font">00</span>
+							<p>Tage </p>
+						</li>
+						<li>
+							<span class="hours time-font">00</span>
+							<p class="">Stunden </p>
+						</li>
+						<li>
+							<span class="minutes time-font">00</span>
+							<p class="">Minuten </p>
+						</li>
+						<li>
+							<span class="seconds time-font">00</span>
+							<p class="">Sekunden </p>
+						</li>				
+					</ul>
+				</div>
+			</div>
+			<div class="cart">
+				<a href="#booking"><i class="fa fa-shopping-cart"></i> <span>Ticket buchen</span></a>
+			</div>
+		</div>
+	</section>
+	<section id="event">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-9">
+					<div id="event-carousel" class="carousel slide" data-interval="false">
+						<h2 class="heading">Themen & Vorträge 2018</h2>
+						<!--
+						<a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+						<a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+						-->
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/thomas.jpg" alt="event-image">
+											<h4>Möglichkeiten im Social Media Recruiting</h4>
+											<h5>Mag. (FH) Thomas Meyer, <br/>Director of Sales bei swat.io, <br/>Social Media Management Experte</h5>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/speaker_woman.jpg" alt="event-image">
+											<h4>Datenschutzgrundverordnung und Recruiting</h4>
+											<h5>DI (FH) Daniela Janko, CSE,<br/>
+											Leiterin Qualitätsmanagement <bR/> 
+											FH Campus Wien<br/>
+											Zertifizierte Datenschutzbeauftragte<br/></h5>
+										</div>
+									</div>
+									<!--div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/nina-schmidt.jpg" alt="event-image">
+											<h4>TBA</h4>
+											<h5>TBA</h5>
+										</div>
+									</div-->
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event1.jpg" alt="event-image">
+											<h4>TBA</h4>
+											<h5>TBA</h5>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event2.jpg" alt="event-image">
+											<h4>Mike Shinoda</h4>
+											<h5>vocals, rhythm guitar</h5>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event3.jpg" alt="event-image">
+											<h4>Rob Bourdon</h4>
+											<h5>drums</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<section id="about">
+		<div class="guitar2">				
+			<img class="img-responsive" src="images/megaphone.png" alt="guitar">
+		</div>
+		<div class="about-content">					
+					<h2>Programm & Ablauf</h2>
+					<table>
+						<tr>
+							<td align="left" style="width: 25%">08.30 Uhr</td>
+							<td align="left">Coffee first</td>
+						</tr>
+						<tr>
+							<td align="left">09.00 Uhr</td>
+							<td align="left">Begrüßung durch die Initiatoren Prescreen und hr personal</td>
+						</tr>
+						<tr>
+							<td align="left" valign="top">09.15 Uhr</td>
+							<td align="left">Buffet und Vernetzung</td>
+						</tr>
+						<tr>
+							<td align="left" style="padding: 15px 0px;">09:30 Uhr</td>
+							<td align="left" style="padding: 15px 0px;">Themensession</td>
+						</tr>
+						<tr>
+							<td align="left" style="width: 25%">10:30 Uhr</td>
+							<td align="left">Buffet und Vernetzung</td>
+						</tr>
+						<tr>
+							<td align="left">11:00 Uhr</td>
+							<td align="left">Insights aus den Sessions und Inputvortrag</td>
+						</tr>
+						<tr>
+							<td align="left" valign="top">11:30</td>
+							<td align="left">Verabschiedung</td>
+						</tr>
+						<tr>
+							<td align="left" style="padding: 15px 0px;">ab 12:00</td>
+							<td align="left" style="padding: 15px 0px;">Ausklang &amp; Networking</td>
+						</tr>
+					</table>
+					<a href="programm-ablauf-wien.pdf" class="btn btn-primary">Programm downloaden <i class="fa fa-angle-right"></i></a>
+				
+		</div>
+	</section><!--/#about-->
+	<section id="booking">
+		<div class="container">
+			<div class="row" style="padding: 35px 0px;">
+				<div class="text-center col-md-8 col-md-offset-2">
+					<div class="text-center">
+						<h2 style="color: #000;margin-bottom: 26px;">Jetzt Ticket Buchen</h2>
+					</div>
+			
 
+				<div style="width:100%; text-align:left;">
+						<iframe src="https://eventbrite.de/tickets-external?eid=41279466997&ref=etckt" frameborder="0" height="550" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true">
+						</iframe>
+						<div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.de/">Von Eventbrite</a>
+						</div>
+					</div>
+				</div>
 
-<!--
+			</div>
+		</div>
+	</section>
+	<section id="sponsor">
+		<div id="sponsor-carousel" class="carousel slide" data-interval="false">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10">
+						<h2>Veranstalter</h2>			
+						<div class="carousel-inner">
+							<div class="item active">
+								<ul>
+									<li><a href="https://prescreen.io" target="_blank"><img class="img-responsive" src="images/prescreen-white.svg" alt=""></a></li>
+									<li><a href="http://www.hr-personal.at/" target="_blank"><img style="max-height: 100px;" class="img-responsive" src="images/hrpersonaltransparent.png" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div class="light">
+				<img class="img-responsive" src="images/light.png" alt="">
+			</div>
+		</div>
+	</section><!--/#sponsor-->
+
+	<section id="contact">
+		<div id="map">
+			<div id="gmap-wrap">
+	 			<div id="gmap"> 				
+	 			</div>	 			
+	    	</div>
+		</div><!--/#map-->
+		<div class="contact-section">
+			<div class="container-fluid" style="padding-left: 0px;">
+				<div class="row">
+					<div class="col-sm-4 fear-piece">
+						<img style="max-height: 450px;" class="img-responsive" src="images/ear-piece.png" alt="">
+					</div>
+					<div class="col-sm-3 col-sm-offset-4">
+						<div class="contact-text">
+							<h3>Kontakt</h3>
+							<address>
+								E-mail: diem@prescreen.io<br>
+								Phone: +43 (680) 1102206<br>
+							</address>
+							<address>
+								E-mail: c.lorber@hr-personal.at<br>
+								Phone: +43 (664) 411 8477<br>
+							</address>
+						</div>
+						<div class="contact-address">
+							<h3>Location</h3>
+							<address>
+								Café Landtmann, Bel-Etage<br />
+								Eingang Oppolzergasse 6<br />
+								1010 Wien<br>
+							</address>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</section>
+    <!--/#contact-->
+
     <footer id="footer">
         <div class="container">
             <div class="text-center">
-                <p> Copyright  &copy;2016<a target="_blank" href="https://prescreen.io"> Prescreen.io</a>. All Rights Reserved.</a></p>                
+                <p> Copyright  &copy;2018<a target="_blank" href="https://prescreen.io"> Prescreen.io</a>. All Rights Reserved.</a></p>                
             </div>
         </div>
     </footer>
-    -->
+    <!--/#footer-->
 
-
-
-<div class="modal fade" id="subscriptionModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Jetzt kostenlos voranmelden!</h4>
-        </div>
-        <div class="modal-body">
-              <script src="https://podio.com/webforms/16783587/1128530.js"></script>
-              <script type="text/javascript">
-                _podioWebForm.render("1128530")
-              </script>
-              <noscript>
-                <a href="https://podio.com/webforms/16783587/1128530" target="_blank">Bitte füllen Sie das Formular aus</a>
-              </noscript>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-
-<div class="modal fade" id="videoModal" tabindex="-2" role="dialog" aria-labelledby="videoModal" aria-hidden="true" data-backdrop="static"> 
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true" data-backdrop="static"> 
     <div class="modal-dialog">
         <div class="modal-content" style="background-color: #000;">
             <div class="modal-body" style="padding: 10px;">
@@ -180,8 +371,15 @@
     </div>
 </div>
   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDG011dTBdQ55g94wC38Apy2LxsCP8p_-Q"></script>
+  	<script type="text/javascript" src="js/gmaps.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/coundown-timer.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
     <script type="text/javascript" src="js/main.js"></script>  
 </body>
 </html>

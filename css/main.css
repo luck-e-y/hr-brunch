@@ -179,13 +179,8 @@ h2 {
 
 #home {
   position: relative;
-  background-image: url("../images/landing-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  text-align: center;
+  overflow: hidden;
 }
-
 
 #main-slider img {
   width: 100%
@@ -466,7 +461,6 @@ h2 {
 *******About CSS**********
 **************************/
 
-
 #about {
   background-color: #75B46E;  
   position: relative;  
@@ -740,105 +734,21 @@ h2 {
 }
 
 
-/*************************
-******Intro CSS****
-**************************/
-
-#intro {
-  position: relative;
-  text-align: center;
-  padding-top: 50px;
-  margin: 0 auto;
-} 
-
-
-/*************************
-******Content CSS****
-**************************/
-
-#events {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  border-top: 5px solid #fff;
-  z-level: 1;
-  text-align: center;
-  min-height: 380px;
-} 
 
 /*************************
 ******Footer CSS****
 **************************/
 
 #footer {
-  background-color: transparent;
+  background-color: #212121;
+  background-image: url("../images/footer-bg.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
-  font-size: 12px;
-  padding: 10px 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  font-size: 20px;
+  padding: 35px 0;
 }
-
-.left-event {
-  padding-top: 130px;
-  background-image: url("../images/linz.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  min-height: 380px;
-  border-right: 5px solid #fff;
-}
-
-.right-event {
-  padding-top: 130px;
-  background-image: url("../images/salzburg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  min-height: 380px;
-}
-
-.right-event:hover {
-  transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-out;
-  background-image: url("../images/salzburg-hover.jpg");
-  /* For Safari */
-  -webkit-transition-timing-function: ease-in-out;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  min-height: 380px;
-}
-
-.left-event:hover {
-  transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-out;
-  background-image: url("../images/linz-hover.jpg");
-  /* For Safari */
-  -webkit-transition-timing-function: ease-in-out;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  min-height: 380px;
-}
-
-.right-event, .left-event {
-  color: #fff;
-}
-
-.right-event h2, .left-event h2, .right-event a, .left-event a {
-    font-family: 'Yanone Kaffeesatz', 'sans-serif';
-    font-weight: 300;
-    text-transform: uppercase;
-    font-size: 35px;
-    color: #fff;
-    text-shadow: 1px 1px 3px rgba(60, 60, 60, 1);
-}
-
 
 #footer a {
   color:#f7ab24
@@ -848,84 +758,4 @@ h2 {
   color:#1B7B98
 }
 
-.logo {
-  text-align: center; 
-  display: block; 
-  margin: 0 auto; 
-  margin-bottom: 40px;
-}
 
-.introtext {
-  padding-bottom: 35px;
-}
-
-
-/* media queries */
-
-@media (max-width: 991px) { 
-  #events {
-    position: relative;
-    width: auto;
-    border: none;
-  }
-
-  .left-event {
-  border-right: none;
-  }
-}
-
-
-@media (max-height: 800px) { 
-  #events {
-    min-height: 350px;
-  }
-
-  .left-event {
-  min-height: 350px;
-  border-right: 0px solid #fff;
-  }
-
-  .right-event {
-    min-height: 350px;
-  }
-
-  .right-event:hover {
-    min-height: 350px;
-  }
-
-  .left-event:hover {
-    min-height: 350px;
-  }
-  .logo {
-    margin-bottom: 20px;
-    max-width: 355px;
-  }
-  .introtext {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-  }
-
-}
-
-.label {
-  font-size: 100%;
-}
-
-.label-orange {
-  background-color: #f39c12;
-  border-color: #f39c12;
-}
-
-.modal-body, .modal-title {
-  color: #555;
-}
-
-.modal-footer .btn-primary {
-  background-color: #f39c12;
-  border-color: #f39c12; 
-}
-.container {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}

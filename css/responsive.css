@@ -6,10 +6,6 @@
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-  .cta-button {
-    margin-top: 15px;
-  }
-
   .navbar-right {
     padding: 0 30px 0 0;
   }
@@ -147,7 +143,7 @@
   }
 
   #home {
-    margin-top: 0%;
+    margin-top: 8%;
   }
 
   #main-slider .carousel-caption {
@@ -304,7 +300,7 @@
   /* Home */
 
   #home {
-    margin-top: 0%;
+    margin-top: 15%;
   }
 
   .fixed-menu .container {
